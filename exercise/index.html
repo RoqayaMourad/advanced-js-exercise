@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="container">
+    <h1 class="text-center text-info m-5">phone book</h1>
+    <input class="form-control m-5" id="userName" placeholder="type username" type="text">
+    <input class="form-control m-5" id="userPhone" placeholder="type phone" type="text">
+    <input class="form-control m-5" id="userEmail" placeholder="type email" type="email">
+    <input class="form-control m-5" id="userAdress" placeholder="type address" type="text">
+
+    <button type="button" name="button" onclick="addcontact()" class="btn btn-info m-5 ">Add Contact</button>
+
+    <table class="table">
+      <thead>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Address</th>
+      </thead>
+      <tbody id="test">
+
+      </tbody>
+    </table>
+
+    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="js/popper.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+
+  </body>
+</html>
